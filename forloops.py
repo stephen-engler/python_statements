@@ -27,3 +27,8 @@ mylist = [(1,2), (3,4), (5,6)]
 for (a,b) in mylist:
     print(a)
     print(b)
+
+d={'k1': 1, 'k2': 2, 'k3': 3}
+# by default dics iterate over keys 
+for key, value in d.items():
+    print(value)
